@@ -39,7 +39,7 @@ Yes, I could've just used ``packet/frame`` instead of ``PDU``, sticking to more 
   > 
   > NOTE 3: Other terms used for the same purpose are: frame, message, datagram.
 
-* According to [the wiki]([PDU - Wireshark Wiki](https://wiki.wireshark.org/PDU)) for the Wireshark open network protocol analyzer *(although not formal)*:
+* According to [the wiki]([PDU - Wireshark Wiki](https://wiki.wireshark.org/PDU)) for the Wireshark open network protocol analyzer *(although not formal)*:
   
   > PDU is short for "Protocol Data Unit". This basically means an amount of information delivered through a network layer.
   > 
