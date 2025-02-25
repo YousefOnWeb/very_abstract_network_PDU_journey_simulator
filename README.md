@@ -34,7 +34,9 @@ Yes, I could've just used ``packet/frame`` instead of ``PDU``, sticking to more 
 * According to the European Telecommunications Standards Institute, in [ETS 300 217-1](https://www.etsi.org/deliver/etsi_i_ets/300200_300299/30021701/01_60/ets_30021701e01p.pdf) (page 10):
   
   > Protocol Data Unit (PDU): is a block of data which consists of all information (user data, addressing information and service parameters) related to a single, self-contained service instance.
+  > 
   > NOTE 2: This definition covers the basic connectionless service PDU.
+  > 
   > NOTE 3: Other terms used for the same purpose are: frame, message, datagram.
 
 * According to [the wiki]([PDU - Wireshark Wiki](https://wiki.wireshark.org/PDU)) for the Wireshark open network protocol analyzer *(although not formal)*:
