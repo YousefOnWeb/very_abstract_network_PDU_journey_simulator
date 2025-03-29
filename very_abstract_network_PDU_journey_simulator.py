@@ -238,7 +238,7 @@ class LeftPanel:
             'delete': {'rect': pygame.Rect(10, 300, 180, 40), 'label': "Delete Device (D)"},
             'set_task': {'rect': pygame.Rect(10, 400, 180, 40), 'label': "Set Task (T)"},
             'run': {'rect': pygame.Rect(10, 450, 180, 40), 'label': "Run Simulation"},
-            'create_random': {'rect': pygame.Rect(10, 500, 220, 40), 'label': "Create Random Network"},
+            'create_random': {'rect': pygame.Rect(10, 500, 220, 40), 'label': "Create Demo Network"},
             # 'prev_event': {'rect': pygame.Rect(10, 550, 180, 40),'label': "Previous Event"},
             # 'next_event':{'rect': pygame.Rect(10, 600, 180, 40),'label': "Next Event"}
         }
@@ -1051,7 +1051,7 @@ def main():
         pygame.draw.rect(screen, COLORS['log_box_background'], log_box_rect)
 
         # Draw header
-        header_text = small_font.render("Logs of the last event:", True, COLORS['text'])
+        header_text = small_font.render("Logs:", True, COLORS['text'])
         screen.blit(header_text, (log_box_rect.x + 5, log_box_rect.y + 5))
 
         # Calculate content parameters

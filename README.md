@@ -8,6 +8,23 @@ I'm learning this as part of my plan to study web app development, specifically,
 
 The OSI model is a very good **conceptual** model or framework to **understand**, **describe**, and **communicate** how different components of a network interact with each other. It being a conceptual model/framework means it's more of a **theoritical** model and less of a practical model for implementation of networks (like a physician explaining how a typical car works without bothering how it's manufactued). The OSI model being conceptual and theoritical, doesn't mean it's a 'skimmed' model, but instead, it means it serves a close-but-different purpose compared to other more practical models, in fact, one of the reasons the OSI model is less practical to implement is it's overly comprehensive/broad. *Another reason is that the OSI model was developed before specific protocols were widely established, leading to a theoretical framework that lacks direct compatibility with many established real-world protocols used on the internet.*
 
+### Still, What is this program really?
+
+When you open it, you see a UI and a blank area in which you are able to place basic networking devices (a host, router, or a switch) which you are able configure, connect, and arrange the way you want making a topology, so that you set a simple communication task at the end, run the task, and see the abstract dynamics of that communication cycle or task being performed.
+That simple **request-response cycle between two hosts** is currently the only task you can set in the program.
+You are also able to see text logs of everything that happens during the task run.
+The running of the task consists of a series of events. During each event, the network device that is currently involved in this event, be highlighted with a white outline, to give a visual sense/feedback of the network activity.
+If you are trying the program and wanna skip making a proper network topology and setting the configuration for its components (i.e IPs and subnet masks, etc.), you can use the 'Create Demo Network' button which *summons* a configured network of two networks connected by a router.
+The way the 'Set a Task' button works is, after clicking it, you click two hosts that you want to do the simple request-response cycle.
+
+#### Demo
+
+![](https://i.postimg.cc/R0B8D4ZQ/demo.gif)
+
+When you click on any network device, a panel appears on the right allowing you to configure it, for example, this is the cofiguration of the router (red) in the above video:
+
+![](https://i.postimg.cc/x8vgHbLw/Screenshot-2025-03-29-085245.png)
+
 ### What the hell is a PDU?
 
 It simply means any generic **package of information**/**unit of data** passing around in a network. For example, a network **packet** is a PDU, same goes for a network **frame** or a **segment**, we can even call **program data** that do not have network headers yet, a PDU. It's a pretty inclusive term, isnt it? That is the reason I've chosen to use it, it's perfectly descriptive of any generic data unit being transmitted, regardless of which layer/s headers does it hold.
