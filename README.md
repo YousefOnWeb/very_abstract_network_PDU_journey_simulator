@@ -1,6 +1,6 @@
 # very_abstract_network_PDU_journey_simulator
 
-A visual interactive tool that -abstractly- mimics packet/frame traversal dynamics as per fundamental computer networking concepts. The main goal is to enable the user to observe the traversal of abstract PDUs (like frames and packets) as part of a simple transaction between any two hosts on a network the user have set (a complete cycle of a request and its corresponding response).
+A visual interactive tool that -abstractly- mimics packet/frame traversal dynamics as per fundamental computer networking concepts. The main goal is to enable the user to observe a complete, abstract end-to-end communication cycle and see the PDUs (like frames and packets) that are part of this complete cycle of a request and its corresponding response between two hosts.
 
 I wrote this program to demostrate/apply to what I've learned from studying this [Networking Fundamentals Video Series](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi), alongside with this [Subnetting Video Series](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE) from the same Instructor. The main series teaches how network communication occurs and how data flows between different network entities in any network as per the the OSI model.
 
