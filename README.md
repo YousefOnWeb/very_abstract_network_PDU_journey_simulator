@@ -62,4 +62,4 @@ Yes, I could've just used ``packet/frame`` instead of ``PDU``, sticking to more 
   > 
   > Colloquial term is "packet" 😃 But that is not the same as PDUs from higher network layers may contain more data than a PDU from a lower layer may carry. In this case, the higher layer PDU is split into several PDUs from the lower layer. Furthermore, a PDU from a lower layer might contain multiple PDUs from higher network layers.
 
-I know, that looks like a very unnecessary load of definitions elaborating on a minor README term, but providing extra clarity is not a harm in my case, especially given that I enjoy this kind of writing (besides the fact I personally like to provide extra clarity and that I want all the definitions in one place for myself).
+I know, that looks like a very unnecessary load of definitions elaborating on a minor README term, but providing extra clarity is not a harm in my case, especially given that I enjoy this kind of writing (besides the fact I personally like to provide extra clarity and that I want all the definitions in one place for myself)
